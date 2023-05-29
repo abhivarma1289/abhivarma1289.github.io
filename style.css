@@ -1,3 +1,15 @@
+h1{
+    color: blueviolet;
+}
 h2{
+    text-align: center;
     color:aqua
 }
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: azure;
+  }
+  
