@@ -1,5 +1,5 @@
-var data1={image : "heroImage.jpg",name : " D Abhilah Varma", designation:"Intern"};
-var data2={image : "passphoto.jpg",name : "Abhi Varma", designation:"Software Devoloper"};
+var data1={image : "abc.jpg",name : " K SAI YUGANDHAR", designation:"Intern"};
+var data2={image : "edf.jpg",name : "YUGANDHAR", designation:"Software Devoloper"};
 var isdata1 = true;
 var displaydata;
 var changemypic = function(){
@@ -12,4 +12,6 @@ var changemypic = function(){
         isdata1=true;
     }
     document.getElementById("myimage").src=displaydata.image;
+    document.getElementById("myname").innerHTML=displaydata.name;
+    document.getElementById("mydesig").innerHTML=displaydata.designation;
 }
